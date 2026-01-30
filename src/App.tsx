@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
-import InteractiveDemo from './components/InteractiveDemo';
 import Footer from './components/Footer';
 
 function App() {
@@ -26,9 +25,6 @@ function App() {
             <a href="#projects" className="hover:text-slate-900 transition-colors">
               Projects
             </a>
-            <a href="#demo" className="hover:text-slate-900 transition-colors">
-              Demo
-            </a>
             <a
               href="https://github.com"
               target="_blank"
@@ -46,7 +42,6 @@ function App() {
         <Hero />
         <About />
         <Projects />
-        <InteractiveDemo />
       </main>
 
       {/* Footer */}
